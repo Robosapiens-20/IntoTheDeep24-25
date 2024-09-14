@@ -17,6 +17,7 @@ public class AutonTest extends OpMode {
     OpenCvWebcam webcam1 = null;
     bluePipeline bluePipeline = new bluePipeline();
 
+
     @Override
     public void init(){
         WebcamName webcamName = hardwareMap.get(WebcamName.class, "webcam1");
